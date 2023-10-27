@@ -33,19 +33,6 @@ const Contact = () => {
             <a href="mailto:hiowner00@gmail.com">Send a message</a>
           </article>
 
-          <article className="contact-option">
-            <MdOutlineEmail className="contact-option-icon" />
-            <h4>Email</h4>
-            <h5>hiowner00@gmail.com</h5>
-            <a href="mailto:hiowner00@gmail.com">Send a message</a>
-          </article>
-
-          <article className="contact-option">
-            <MdOutlineEmail className="contact-option-icon" />
-            <h4>Email</h4>
-            <h5>hiowner00@gmail.com</h5>
-            <a href="mailto:hiowner00@gmail.com">Send a message</a>
-          </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>

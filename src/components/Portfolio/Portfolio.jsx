@@ -1,53 +1,53 @@
 import React from 'react'
 import './portfolio.css'
-import img1 from '../../assets/portfolio1.jpg'
-import img2 from '../../assets/portfolio2.jpg'
-import img3 from '../../assets/portfolio3.jpg'
-import img4 from '../../assets/portfolio4.jpg'
-import img5 from '../../assets/portfolio5.png'
+import img1 from '../../assets/stackoverflow.jpg'
+import img2 from '../../assets/todo.jpg'
+import img3 from '../../assets/airbnb.jpg'
+import img4 from '../../assets/travel.jpg'
+import img5 from '../../assets/spotify.png'
 import img6 from '../../assets/portfolio6.jpg'
 const data = [
   {
     id: 1,
     image: img1,
-    title: 'Project 1',
-    github: 'https://github.com/hixmanshu00',
-    demo: ''
+    title: 'Stackoverflow clone',
+    github: 'https://github.com/hixmanshu00/stackoverflow-clone',
+    demo: 'https://stackoverflow-clone-him.netlify.app'
   },
   {
     id: 2,
     image: img2,
-    title: 'Project 2',
-    github: 'https://github.com/hixmanshu00',
-    demo: ''
+    title: 'Mern Todo App',
+    github: 'https://github.com/hixmanshu00/todo-frontend',
+    demo: 'https://him-todo-app.netlify.app'
   },
   {
     id: 3,
     image: img3,
-    title: 'Project 3',
-    github: 'https://github.com/hixmanshu00',
-    demo: ''
+    title: 'Airbnb clone',
+    github: 'https://github.com/hixmanshu00/airbnb-landing-page-clone',
+    demo: 'https://aibnb-landing-page-clone.netlify.app/'
   },
   {
     id: 4,
     image: img4,
-    title: 'Project 4',
-    github: 'https://github.com/hixmanshu00',
-    demo: ''
+    title: 'Travel Website',
+    github: 'https://github.com/hixmanshu00/react-travel-website',
+    demo: 'him-travel.netlify.app'
   },
   {
     id: 5,
     image: img5,
-    title: 'Project 5',
-    github: 'https://github.com/hixmanshu00',
-    demo: ''
+    title: 'Spotify Premiuim Design',
+    github: 'https://github.com/hixmanshu00/spotify-premium-page-clone',
+    demo: 'https://flourishing-dieffenbachia-cd028c.netlify.app'
   },
   {
     id: 6,
     image: img6,
-    title: 'Project 6',
-    github: 'https://github.com/hixmanshu00',
-    demo: ''
+    title: 'Store API',
+    github: 'https://github.com/hixmanshu00/store-api',
+    demo: 'https://github.com/hixmanshu00/store-api'
   },
 ]
 const Portfolio = () => {
